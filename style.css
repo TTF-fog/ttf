@@ -1,0 +1,402 @@
+body {
+    background: hsl(0, 0, 20);
+    font-family: sans-serif;
+    font-weight: 400;
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    background-color: black;
+    
+  }
+  /* Make sure that padding behaves as expected */
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #f7f7f7; /* Light grey background */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 20px; /* Add top padding */
+  padding-bottom: 20px; /* Add bottom padding */
+  color: #333; /* Dark grey text color */
+  font-family: Arial, sans-serif; /* Use a clean font */
+  font-size: 18px; /* Increase font size */
+}
+
+.html {
+  width: 90%;
+  background-color: #34C759; /* Bright green */
+  height: 10px; /* Increase height */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.css {
+  width: 80%;
+  background-color: #2196F3; /* Bright blue */
+  height: 10px; /* Increase height */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.js {
+  width: 65%;
+  background-color: #FFC107; /* Bright orange */
+  height: 10px; /* Increase height */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.php {
+  width: 60%;
+  background-color: #9C27B0; /* Bright purple */
+  height: 10px; /* Increase height */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 10px; /* Add margin bottom */
+}
+  #offline{
+    padding-top: -100px;
+    background-color: green;
+    font-size: large;
+    
+  }
+  .h1center, .h2center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: hsl(0, 0, 20);
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  #title2{
+    
+      position: absolute;
+      left: 50%;
+      
+      transform: translateX(50%);
+      transform: translateY(325px);
+      color: hsl(0, 0, 20);
+      font-family: sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    
+  }
+  #center {
+    text-align: center;
+    position: absolute;
+    top: 200px; /* adjust this value to move the div further below */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-radius: 50px;
+    height: 50%;
+    backdrop-filter: blur(5px);
+    border: 3px solid rgb(12, 12, 12);
+    padding: 10px;
+    border-width:10px;
+  }
+  #activity-display{
+    text-align: center;
+    position: relative;
+    width:200px;
+    /* adjust this value to move the div further below */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 100%;
+    border-radius: 50px;
+    height: 50%;
+    
+    border: 3px solid rgb(12, 12, 12);
+    background-color: black;
+    border-width:10px;
+    
+
+  }
+  
+  h1 {
+    top: 24px;
+    font-size: 58px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+    width: 40%;
+    height: 40%;
+  }
+  h2 {
+    top: 44px;
+    font-size: 10px;
+    opacity: 0.7;
+  }
+  
+  .cube {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .cube span {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #top {
+    background: hsl(45, 100%, 50%);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+   
+    max-height:50%;
+  }
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-size: larger;
+    backdrop-filter: blur(20px);
+    font-family: "Oswald";
+    
+  }
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  #top span {
+    background: hsl(45, 100%, 45%);
+    color: hsl(45, 100%, 20%);
+    
+  }
+  
+  #content {
+    background: hsl(0, 0, 100%);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+   
+    
+   
+  }
+.frameworks{
+  align-items: left;
+  align-self: left;
+}
+.tab-image{
+  margin-left: 10px;
+  height: 75px;
+  width: 75px;
+  
+}
+  
+  #content span {
+    background: hsl(0, 0, 95%);
+    color: hsl(0, 0, 50%);
+    
+  }
+
+ 
+  .activity-display1{
+    text-align: center;
+    position: relative;
+    display: flex;
+    
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+    width:10px;
+    /* adjust this value to move the div further below */
+    left: 5%;
+    transform: translateY(50%);
+    backdrop-filter: blur(5px);
+    
+    width: 20%;
+    border-radius: 50px;
+    height: 30%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+              inset 0 0 20px rgba(255, 255, 255, 0.2);
+    border: 3px solid rgb(249, 249, 249);
+
+    border-width:10px;
+    
+  }
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.activity-display1 {
+  margin: 10px;
+  float:left;
+  font-family: "Oswald";
+  
+}
+
+.activity-display1 .progress-bar {
+  width: 100px;
+  height: 100px;
+}
+
+
+/*THIS IS QUITE POSSIBLE THE DUMBEST WAY TO DO THIS BUT I HAVE NO TIME RIGHT NOW*/
+/* 283-percantage/100 * 283 (formula for the values*/
+ #progress-bar circle:nth-child(2) {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    position: absolute;
+    top:1cm;
+    animation: progress 2s ease forwards;
+  }
+
+  @keyframes progress {
+    from {
+      stroke-dashoffset: 283;
+    }
+    to {
+      stroke-dashoffset: 141;
+    }
+  }
+  #progress-bar circle:nth-child(2) {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    position: absolute;
+    top:1cm;
+    animation: progress 2s ease forwards;
+  }
+
+  @keyframes progress {
+    from {
+      stroke-dashoffset: 283;
+    }
+    to {
+      stroke-dashoffset: 141;
+    }
+  }
+  #progress-bar1 circle:nth-child(2) {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    position: absolute;
+    top:1cm;
+    animation: progress1 2s ease forwards;
+  }
+
+  @keyframes progress1 {
+    from {
+      stroke-dashoffset: 283;
+    }
+    to {
+      stroke-dashoffset: 28.3;
+    }
+  }
+  #progress-bar2 circle:nth-child(2) {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    position: absolute;
+    top:1cm;
+    animation: progress2 2s ease forwards;
+  }
+
+  @keyframes progress2 {
+    from {
+      stroke-dashoffset: 283;
+    }
+    to {
+      stroke-dashoffset: 198.1;
+    }
+  }
+  #progress-bar3 circle:nth-child(2)  {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    position: absolute;
+    top:1cm;
+    animation: progress3 2s ease forwards;
+  }
+
+  @keyframes progress3 {
+    from {
+      stroke-dashoffset: 283;
+    }
+    to {
+      stroke-dashoffset: 70;
+    }
+  }
+  
+  #progress-bar4 circle:nth-child(2) {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    position: absolute;
+    top:1cm;
+    animation: progress4 2s ease forwards;
+  }
+
+  @keyframes progress4 {
+    from {
+      stroke-dashoffset: 283;
+    }
+    to {
+      stroke-dashoffset: 56;
+    }
+  }
+  
